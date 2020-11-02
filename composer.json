@@ -1,0 +1,21 @@
+{
+  "name": "ffuenf/shopware-replicate-media-storage",
+  "keywords": ["shopware", "backend", "media", "media manager", "storage"],
+  "description": "This is a extension for Shopware that adds a replicate media adapter to store images on the local filesystem AND a AWS s3 CDN.",
+  "license": "MIT",
+  "type": "shopware-plugin",
+  "extra": {
+    "installer-name": "FfuenfReplicateMediaStorage"
+  },
+  "require": {
+        "php" : "^7.3",
+        "composer/installers": "~1.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "phpunit/phpunit": "^6.5"
+    },
+    "config": {
+        "bin-dir": "bin"
+  }
+}
