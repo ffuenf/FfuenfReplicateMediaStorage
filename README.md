@@ -2,8 +2,8 @@
 
 FfuenfReplicateMediaStorage
 ===========================
-[![GitHub tag](https://img.shields.io/github/tag/ffuenf/docker-shopware-php.svg)](https://github.com/ffuenf/FfuenfReplicateMediaStorage)
-[![Build Status](https://img.shields.io/travis/ffuenf/docker-shopware-php.svg)](https://travis-ci.org/ffuenf/FfuenfReplicateMediaStorage)
+[![GitHub tag](https://img.shields.io/github/tag/ffuenf/FfuenfReplicateMediaStorage.svg)](https://github.com/ffuenf/FfuenfReplicateMediaStorage)
+[![Build Status](https://img.shields.io/travis/ffuenf/FfuenfReplicateMediaStorage.svg)](https://travis-ci.org/ffuenf/FfuenfReplicateMediaStorage)
 [![Code Quality](https://scrutinizer-ci.com/g/ffuenf/FfuenfReplicateMediaStorage/badges/quality-score.png)](https://scrutinizer-ci.com/g/ffuenf/FfuenfReplicateMediaStorage/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/ffuenf/FfuenfReplicateMediaStorage/badges/coverage.png)](https://scrutinizer-ci.com/g/ffuenf/FfuenfReplicateMediaStorage)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/ffuenf/FfuenfReplicateMediaStorage/badges/code-intelligence.svg)](https://scrutinizer-ci.com/code-intelligence)
