@@ -49,7 +49,7 @@ class AdapterCollectionSubscriber extends AbstractService implements SubscriberI
         $s3Options = $this->resolveS3Options($config['s3']);
         $client = new S3Client($s3Options);
         $source = new AwsS3Adapter($client, $s3Options['bucket'], $s3Options['root'], $s3Options['metaOptions']);
-        $localOptions = $this->resolveLocalOptions($config['local']);
+        $localOptions = $this->resolveLocalOptions($config['localplain']);
         $replica = new Local($localOptions['root'], LOCK_EX, Local::DISALLOW_LINKS, $localOptions);
         $adapter = new ReplicateAdapter($source, $replica);
         return $adapter;
@@ -95,11 +95,12 @@ class AdapterCollectionSubscriber extends AbstractService implements SubscriberI
         $options = new OptionsResolver();
 
         $options->setRequired(['root']);
-        $options->setDefined(['file', 'dir', 'mediaUrl', 'type', 'permissions', 'url']);
+        $options->setDefined(['strategy', 'file', 'dir', 'mediaUrl', 'type', 'permissions', 'url']);
 
         $options->setAllowedTypes('root', 'string');
         $options->setAllowedTypes('file', 'array');
         $options->setAllowedTypes('dir', 'array');
+        $options->setAllowedTypes('strategy', 'string');
         $options->setAllowedTypes('mediaUrl', 'string');
         $options->setAllowedTypes('type', 'string');
         $options->setAllowedTypes('permissions', 'array');

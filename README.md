@@ -23,10 +23,10 @@ Other versions are assumed to work.
 Requirements
 ------------
 
-|                                                                              | PHP 7.4           |
-| ---------------------------------------------------------------------------- | ----------------- |
-| [EOL](https://secure.php.net/supported-versions.php) / SEC-FIX / STABLE / RC | **STABLE**        |
-| automated tests on [travis]                                                  | **required pass** |
+|                                                                              | PHP 7.3           | PHP 7.4           | PHP 8.0           |
+| ---------------------------------------------------------------------------- | ----------------- | ----------------- | ----------------- |
+| [EOL](https://secure.php.net/supported-versions.php) / SEC-FIX / STABLE / RC | SEC-FIX           | **STABLE**        | **STABLE**        |
+| automated tests on [travis]                                                  | **allow failure** | **required pass** | **allow failure** |
 
 Installation
 ------------
